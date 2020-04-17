@@ -1,0 +1,13 @@
+.nav-bar {
+  background-color: $color-main-nav;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    font-size: 2.5rem;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+}

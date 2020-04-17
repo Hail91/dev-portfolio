@@ -9,7 +9,7 @@ const Header = () => {
     from: { opacity: 0, marginTop: -100 },
   });
   return (
-    <section className="welcome-section">
+    <section className="welcome-section" id="welcome">
       <animated.div style={headerFadeIn}>
         <h1>Hey there! My name is Aaron...</h1>
         <h1>Let's talk!</h1>
