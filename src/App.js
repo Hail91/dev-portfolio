@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css'
-import NavBar from './components/NavBar';
+import React from "react";
+import "./App.css";
+import NavBar from "./components/NavBar.jsx";
+import Header from "./components/Header.jsx";
 
 function App() {
-
   return (
     <div>
       <NavBar />
-      <h1>I make the web stuff!</h1>
+      <Header />
     </div>
   );
 }

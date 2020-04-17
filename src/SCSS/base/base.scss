@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #3a3d40;
+}
+
+html,
+body,
+#App,
+#root,
+#App > div {
+  min-height: 100%;
+}
