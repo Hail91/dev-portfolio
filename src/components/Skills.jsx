@@ -6,8 +6,9 @@ const Skills = () => {
   const [configuration, setConfiguration] = useState({
     config: config.gentle,
   });
+  const [count, setCount] = useState(0);
 
-  const skillsSlide = [];
+  const skillsSlide = [{}];
   return (
     <div>
       <h1>Carousal will go here</h1>
