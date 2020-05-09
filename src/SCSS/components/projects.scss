@@ -1,0 +1,20 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.card-front {
+  border: 2px solid black;
+  height: 30rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-back {
+  border: 2px solid black;
+  height: 30rem;
+  width: 20rem;
+}

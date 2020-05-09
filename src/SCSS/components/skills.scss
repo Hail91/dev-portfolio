@@ -1,8 +1,12 @@
 .Skills-cont {
   display: flex;
   justify-content: center;
+  margin-top: 7rem;
+  width: 40%;
+  height: 500px;
   margin: 0 auto;
-  margin-top: 10rem;
+  border-top: 0.5px solid $color-main-nav;
+  border-bottom: 0.5px solid $color-main-nav;
 }
 
 .icon-container {

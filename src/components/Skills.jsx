@@ -12,10 +12,11 @@ import { ReactComponent as ReactJS } from "./Icons/react.svg";
 import { ReactComponent as Sass } from "./Icons/sass.svg";
 // -------------------
 const Skills = () => {
-  const [Config] = useState({ config: config.gentle });
+  const [Config] = useState({ config: config.slow });
   const [slide, setSlide] = useState(0);
   const [offsetRadius] = useState(2);
   const [navigation] = useState(false);
+  // const [showInfo, setShowInfo] = useState(false);
 
   const SkillsSlides = [
     {
@@ -25,12 +26,12 @@ const Skills = () => {
           <HTML
             style={{
               height: "20rem",
-              width: "20rem",
+              width: "25rem",
               color: "#E44D26",
               cursor: "pointer",
             }}
           />
-          <p>HTML</p>
+          <p>HTML5</p>
         </div>
       ),
     },
@@ -41,7 +42,7 @@ const Skills = () => {
           <Css
             style={{
               height: "20rem",
-              width: "20rem",
+              width: "25rem",
               color: "2965f1",
               cursor: "pointer",
             }}
@@ -57,7 +58,7 @@ const Skills = () => {
           <Sass
             style={{
               height: "20rem",
-              width: "20rem",
+              width: "25rem",
               color: " #cd6799",
               cursor: "pointer",
             }}
@@ -73,7 +74,7 @@ const Skills = () => {
           <Js
             style={{
               height: "20rem",
-              width: "20rem",
+              width: "25rem",
               color: "#f0db4f",
               cursor: "pointer",
             }}
@@ -89,7 +90,7 @@ const Skills = () => {
           <Node
             style={{
               height: "20rem",
-              width: "20rem",
+              width: "25rem",
               color: "#3C873A",
               cursor: "pointer",
             }}
@@ -105,7 +106,7 @@ const Skills = () => {
           <ReactJS
             style={{
               height: "20rem",
-              width: "20rem",
+              width: "25rem",
               color: "#61DBFB",
               cursor: "pointer",
             }}
@@ -131,7 +132,7 @@ const Skills = () => {
   });
 
   return (
-    <div style={{ width: "50%", height: "500px", margin: "0 auto" }}>
+    <div id="#skills" className="Skills-cont">
       <Carousel
         slides={SkillsSlides}
         goToSlide={slide}
