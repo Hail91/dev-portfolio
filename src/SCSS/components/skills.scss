@@ -4,3 +4,20 @@
   margin: 0 auto;
   margin-top: 10rem;
 }
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+
+  img {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
