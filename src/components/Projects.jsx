@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="projects-container">
       {ProjectData.map((data) => {
-        return <ProjectCard />;
+        return <ProjectCard data={data} />;
       })}
     </div>
   );

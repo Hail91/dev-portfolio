@@ -1,6 +1,4 @@
 [
-  {
-    "projects": [
       {
         "name": "One Line A Day",
         "description": "Basic note taking application allowing users to create/store/update/delete notes.",
@@ -56,6 +54,4 @@
           ]
         }
       }
-    ]
-  }
 ]
