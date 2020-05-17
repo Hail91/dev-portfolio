@@ -51,6 +51,10 @@ const ProjectCard = ({ data }) => {
               consequat mauris nunc.
             </p>
           </div>
+          <div className="card-back-btns">
+            <button>View Code</button>
+            <button>View Deploy</button>
+          </div>
         </div>
       </ReactCardFlip>
     </div>
