@@ -15,7 +15,8 @@ const ProjectCard = ({ data }) => {
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div className="card-front">
           <img src={data.image} alt="project-1" />
-          <h1>{data.name}</h1>
+          <h2>{data.name}</h2>
+          <p>{data.description}</p>
           <button onClick={handleFlip}>Click to flip</button>
         </div>
         <div className="card-back">

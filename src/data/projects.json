@@ -19,6 +19,7 @@
   {
     "name": "Use My Tools",
     "description": "Use My Tools is an application where users can rent out or borrow tools from other users with 100% CRUD functionality.",
+    "image": "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
     "tech_stack": {
       "frontend": ["ReactJS", "Redux", "CSS", "Axios"],
       "backend": [
