@@ -13,15 +13,12 @@ const ProjectCard = ({ data }) => {
   return (
     <div className="main-card">
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-        <div className="card-front">
+        <div onMouseEnter={handleFlip} className="card-front">
           <img src={data.image} alt="project-1" />
           <h2>{data.name}</h2>
           <p>{data.description}</p>
-          <button onClick={handleFlip}>Click to flip</button>
         </div>
-        <div className="card-back">
-          <button onClick={handleFlip}>Click to flip</button>
-        </div>
+        <div onMouseLeave={handleFlip} className="card-back"></div>
       </ReactCardFlip>
     </div>
   );
