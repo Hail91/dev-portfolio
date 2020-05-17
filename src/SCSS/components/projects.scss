@@ -15,6 +15,7 @@
   align-items: center;
   text-align: center;
   @include boxshadow();
+  cursor: pointer;
   // background-image: url("../../images/Kansha-img.jpg");
   // background-repeat: no-repeat;
   // background-size: cover;
@@ -53,6 +54,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  cursor: pointer;
 
   button {
     width: 8rem;
