@@ -12,7 +12,7 @@
         "PostgresQL",
         "Jest",
         "SQLlite3",
-        "JWT(JSON web token)"
+        "JWT"
       ]
     }
   },
@@ -29,7 +29,7 @@
         "PostgresQL",
         "Jest",
         "SQLlite3",
-        "JWT(JSON web token)"
+        "JWT"
       ]
     }
   },
@@ -46,7 +46,7 @@
         "PostgresQL",
         "Jest",
         "SQLlite3",
-        "JWT(JSON web token)"
+        "JWT"
       ]
     }
   }

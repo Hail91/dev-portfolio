@@ -61,6 +61,24 @@
     cursor: pointer;
   }
 
+  h1 {
+    margin-right: 1rem;
+  }
+
+  .project-info {
+    text-align: left;
+    width: 75%;
+    font-size: 1.5rem;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+
   .tech-stack-cont {
     display: flex;
     margin-top: 1rem;
@@ -68,14 +86,29 @@
     .front-end-stack {
       display: flex;
       border-right: 1px solid $color-main-nav;
+      flex-direction: column;
 
       h2 {
         margin-right: 1rem;
+      }
+
+      li {
+        list-style-type: none;
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
       }
     }
 
     .back-end-stack {
       display: flex;
+      flex-direction: column;
+
+      li {
+        list-style-type: none;
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+      }
 
       h2 {
         margin-left: 1rem;
