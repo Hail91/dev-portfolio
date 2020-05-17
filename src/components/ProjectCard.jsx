@@ -18,7 +18,17 @@ const ProjectCard = ({ data }) => {
           <h2>{data.name}</h2>
           <p>{data.description}</p>
         </div>
-        <div onMouseLeave={handleFlip} className="card-back"></div>
+        <div onMouseLeave={handleFlip} className="card-back">
+          <h1>Technology Used</h1>
+          <div className="tech-stack-cont">
+            <div className="front-end-stack">
+              <h2>Front-end</h2>
+            </div>
+            <div className="back-end-stack">
+              <h2>Back-end</h2>
+            </div>
+          </div>
+        </div>
       </ReactCardFlip>
     </div>
   );
