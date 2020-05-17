@@ -1,0 +1,53 @@
+[
+  {
+    "name": "One Line A Day",
+    "description": "Basic note taking application allowing users to create/store/update/delete notes.",
+    "image": "https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80",
+    "tech_stack": {
+      "frontend": ["ReactJS", "Redux", "CSS", "SASS", "Axios"],
+      "backend": [
+        "NodeJS",
+        "Express",
+        "Knex",
+        "PostgresQL",
+        "Jest",
+        "SQLlite3",
+        "JWT"
+      ]
+    }
+  },
+  {
+    "name": "Use My Tools",
+    "description": "Use My Tools is an application where users can rent out or borrow tools from other users with 100% CRUD functionality.",
+    "image": "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+    "tech_stack": {
+      "frontend": ["ReactJS", "Redux", "CSS", "Axios"],
+      "backend": [
+        "NodeJS",
+        "Express",
+        "Knex",
+        "PostgresQL",
+        "Jest",
+        "SQLlite3",
+        "JWT"
+      ]
+    }
+  },
+  {
+    "name": "Chef Portfolio",
+    "description": "Chef Portfolio is an application for chefs to share their amazing creations with the world and with 100% CRUD functionality.",
+    "image": "https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+    "tech_stack": {
+      "frontend": ["ReactJS", "Redux", "CSS", "Sass", "MaterialUI", "Axios"],
+      "backend": [
+        "NodeJS",
+        "Express",
+        "Knex",
+        "PostgresQL",
+        "Jest",
+        "SQLlite3",
+        "JWT"
+      ]
+    }
+  }
+]
