@@ -1,9 +1,14 @@
 .projects-container {
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
-  margin-top: 15rem;
-  margin-bottom: 15rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 15rem auto;
+  width: 50%;
+
+  .main-card {
+    margin-bottom: 5rem;
+  }
 }
 
 .card-front {
