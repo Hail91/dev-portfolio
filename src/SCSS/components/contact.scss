@@ -5,30 +5,41 @@
   flex-direction: column;
 
   .contact-form {
+    display: flex;
+    flex-direction: column;
     width: 20%;
+    align-items: center;
     input {
       width: 100%;
     }
     .contact-form-name {
       display: flex;
       flex-direction: row;
+      justify-content: center;
+
+      .first-name-input {
+        margin-right: 10px;
+        width: 26%;
+      }
 
       .name-input {
         display: flex;
         flex-direction: column;
-        width: 45%;
-        margin-right: 20px;
+        width: 28%;
       }
     }
 
     .email-input {
       display: flex;
       flex-direction: column;
+      width: 45%;
     }
 
     .message-input {
       display: flex;
       flex-direction: column;
+      width: 46%;
+      margin-left: 4px;
     }
   }
 }

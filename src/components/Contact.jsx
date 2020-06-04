@@ -38,7 +38,7 @@ const Contact = () => {
       <h1>Contact Form will go here</h1>
       <form className="contact-form">
         <div className="contact-form-name">
-          <div className="name-input">
+          <div className="first-name-input">
             <label>First Name</label>
             <input
               className="contact-input"
