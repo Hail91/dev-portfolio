@@ -11,18 +11,26 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1>Contact Form will go here</h1>
-      <form>
-        <label>First Name</label>
+      <form className="contact-form">
+        <div className="contact-form-name">
+          <label>First Name</label>
+          <input
+            className="contact-input"
+            name="firstName"
+            placeholder="First Name"
+          ></input>
+          <label>Last Name</label>
+          <input
+            className="contact-input"
+            name="lastName"
+            placeholder="Last Name"
+          ></input>
+        </div>
+        <label>Email</label>
         <input
           className="contact-input"
-          name="firstName"
-          placeholder="First Name"
-        ></input>
-        <label>Last Name</label>
-        <input
-          className="contact-input"
-          name="lastName"
-          placeholder="Last Name"
+          name="Email"
+          placeholder="Email"
         ></input>
       </form>
     </div>
