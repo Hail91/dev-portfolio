@@ -26,9 +26,25 @@
       }
     }
 
+    textarea {
+      resize: none;
+      &:hover {
+        border: 1px solid $color-main-nav;
+      }
+    }
+
     input {
       padding: 10px 5px 10px 5px;
       margin-bottom: 10px;
+      border: 1px solid gray;
+
+      &:hover {
+        border: 1px solid $color-main-nav;
+      }
+
+      &:focus {
+        outline: none;
+      }
     }
 
     label {
@@ -44,6 +60,19 @@
     .message-input {
       display: flex;
       flex-direction: column;
+
+      .send-btn {
+        margin-top: 2rem;
+        height: 3rem;
+        color: white;
+        background-color: $color-main-nav;
+        border: none;
+        border-radius: 2px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
   }
 }
