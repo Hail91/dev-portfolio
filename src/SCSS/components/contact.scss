@@ -3,51 +3,47 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 10rem;
 
   .contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // width: 20%;
+    // align-items: center;
 
-    input {
-      width: 100%;
-      padding: 5px 0 5px 2px;
-      margin-bottom: 10px;
-    }
-
-    label {
-      margin-bottom: 5px;
-    }
-    .contact-form-name {
+    .name-form {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
+      flex-direction: column;
 
       .first-name-input {
-        margin-top: 5px;
-        margin-right: 10px;
-        width: 26%;
+        display: flex;
+        flex-direction: column;
       }
 
       .name-input {
         display: flex;
         flex-direction: column;
-        width: 28%;
       }
+    }
+
+    input {
+      padding: 10px 5px 10px 5px;
+      margin-bottom: 10px;
+    }
+
+    label {
+      margin-bottom: 5px;
+      font-size: 1.5rem;
     }
 
     .email-input {
       display: flex;
       flex-direction: column;
-      width: 45%;
     }
 
     .message-input {
       display: flex;
       flex-direction: column;
-      width: 46%;
-      margin-left: 4px;
     }
   }
 }

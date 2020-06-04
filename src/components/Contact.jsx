@@ -37,10 +37,11 @@ const Contact = () => {
     <div className="contact-container">
       <h1>Contact Form will go here</h1>
       <form className="contact-form">
-        <div className="contact-form-name">
+        <div className="name-form">
           <div className="first-name-input">
             <label>First Name</label>
             <input
+              style={{ marginTop: "5px" }}
               className="contact-input"
               value={contact.firstName}
               onChange={handleInput}
@@ -51,6 +52,7 @@ const Contact = () => {
           <div className="name-input">
             <label>Last Name</label>
             <input
+              style={{ marginTop: "5px" }}
               className="contact-input"
               value={contact.lastName}
               onChange={handleInput}
@@ -72,18 +74,23 @@ const Contact = () => {
         <div className="message-input">
           <label>Message</label>
           <textarea
-            style={{ paddingLeft: "4px" }}
-            className="contact-input"
+            style={{
+              paddingLeft: "6px",
+              paddingTop: "5px",
+              width: "25rem",
+              height: "7rem",
+            }}
+            className="message-box"
             value={contact.message}
             onChange={handleInput}
             name="message"
             placeholder="Message"
           ></textarea>
+          <button className="send-btn" type="submit" onClick={handleSubmit}>
+            Send
+          </button>
         </div>
       </form>
-      <button type="submit" onClick={handleSubmit}>
-        Send
-      </button>
     </div>
   );
 };
