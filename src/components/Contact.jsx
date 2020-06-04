@@ -32,6 +32,12 @@ const Contact = () => {
           name="Email"
           placeholder="Email"
         ></input>
+        <label>Message</label>
+        <textarea
+          className="contact-input"
+          name="message"
+          placeholder="Message"
+        ></textarea>
       </form>
     </div>
   );
