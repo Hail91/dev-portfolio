@@ -72,6 +72,7 @@ const Contact = () => {
         <div className="message-input">
           <label>Message</label>
           <textarea
+            style={{ paddingLeft: "4px" }}
             className="contact-input"
             value={contact.message}
             onChange={handleInput}
