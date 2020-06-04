@@ -35,11 +35,12 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
-      <h1>Contact Form will go here</h1>
       <form className="contact-form">
         <div className="name-form">
           <div className="first-name-input">
-            <label>First Name</label>
+            <label>
+              First Name<span> *</span>
+            </label>
             <input
               style={{ marginTop: "5px" }}
               className="contact-input"
@@ -50,7 +51,9 @@ const Contact = () => {
             ></input>
           </div>
           <div className="name-input">
-            <label>Last Name</label>
+            <label>
+              Last Name<span> *</span>
+            </label>
             <input
               style={{ marginTop: "5px" }}
               className="contact-input"
@@ -62,7 +65,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="email-input">
-          <label>Email</label>
+          <label>
+            Email<span> *</span>
+          </label>
           <input
             className="contact-input"
             value={contact.email}
@@ -72,7 +77,9 @@ const Contact = () => {
           ></input>
         </div>
         <div className="message-input">
-          <label>Message</label>
+          <label>
+            Message<span> *</span>
+          </label>
           <textarea
             style={{
               paddingLeft: "6px",
@@ -86,11 +93,21 @@ const Contact = () => {
             name="message"
             placeholder="Message"
           ></textarea>
+          <h3 style={{ marginTop: "5px", fontSize: "1.5rem" }}>
+            <span>*</span>Indicates a required field
+          </h3>
           <button className="send-btn" type="submit" onClick={handleSubmit}>
             Send
           </button>
         </div>
       </form>
+      <div className="contact-info">
+        <h2>Contact Information</h2>
+        <div className="contact-methods-phone">
+          <i className="fas fa-phone-alt fa-lg"></i>
+          <p>+1 315-254-8427</p>
+        </div>
+      </div>
     </div>
   );
 };
