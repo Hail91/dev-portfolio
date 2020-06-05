@@ -13,11 +13,13 @@ const ProjectCard = ({ data }) => {
   return (
     <div className="main-card">
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-        <div onMouseEnter={handleFlip} className="card-front">
+        <div className="card-front">
           <img src={data.image} alt="project-1" />
           <h2>{data.name}</h2>
           <p>{data.description}</p>
-          <p style={{ color: "#197278" }}>Hover for more information</p>
+          <p onClick={handleFlip} style={{ color: "#197278" }}>
+            Click for more information
+          </p>
         </div>
         <div onMouseLeave={handleFlip} className="card-back">
           <h1>Technology Used</h1>
