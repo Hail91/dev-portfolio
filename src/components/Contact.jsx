@@ -103,9 +103,29 @@ const Contact = () => {
       </form>
       <div className="contact-info">
         <h2>Contact Information</h2>
-        <div className="contact-methods-phone">
+        <div className="contact-methods">
           <i className="fas fa-phone-alt fa-lg"></i>
           <p>+1 315-254-8427</p>
+        </div>
+        <div className="contact-methods">
+          <i class="far fa-envelope fa-lg"></i>
+          <p>aarongillies88@gmail.com</p>
+        </div>
+        <div className="contact-methods">
+          <i class="fab fa-twitter fa-lg"></i>
+          <p>
+            <a href="https://twitter.com/UpstateCoder91" target="_">
+              twitter.com/UpstateCoder91
+            </a>
+          </p>
+        </div>
+        <div className="contact-methods">
+          <i class="fab fa-linkedin fa-lg"></i>
+          <p>
+            <a href="https://www.linkedin.com/in/aarongillies/" target="_">
+              linkedin.com/in/aarongillies
+            </a>
+          </p>
         </div>
       </div>
     </div>
