@@ -107,6 +107,14 @@ const Contact = () => {
           <i className="fas fa-phone-alt fa-lg"></i>
           <p>+1 315-254-8427</p>
         </div>
+        <div className="contact-methods-email">
+          <i class="far fa-envelope fa-lg"></i>
+          <p>aarongillies88@gmail.com</p>
+        </div>
+        <div className="contact-methods-twitter">
+          <i class="fab fa-twitter fa-lg"></i>
+          <p>twitter.com/UpstateCoder91</p>
+        </div>
       </div>
     </div>
   );
