@@ -3,10 +3,14 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: $color-main-nav;
+  color: black;
   margin-bottom: 10rem;
 
   h1 {
     font-size: 4rem;
+  }
+
+  .header-container {
+    white-space: pre-wrap;
   }
 }

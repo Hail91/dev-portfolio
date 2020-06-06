@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useSpring, animated } from "react-spring";
+import TypeIt from "typeit-react";
 
 const Header = () => {
   const headerFadeIn = useSpring({
@@ -9,27 +10,17 @@ const Header = () => {
     from: { opacity: 0, marginTop: -100 },
   });
 
-  let count = 0;
-  let headerMsg = "Hey there! My name is Aaron...";
-  let typeSpeed = 40;
-
-  const write = () => {
-    if (count < headerMsg.length) {
-      document.getElementById("headerMsg").innerHTML += headerMsg.charAt(count);
-      count++;
-      setTimeout(write, typeSpeed);
-    }
-  };
-
-  useEffect(() => {
-    write();
-  }, []);
-
   return (
     <section className="welcome-section" id="welcome">
-      <animated.div style={headerFadeIn}>
-        <p id="headerMsg"></p>
-        <h1>Let's talk!</h1>
+      <animated.div className="header-container" style={headerFadeIn}>
+        <TypeIt
+          element={"h2"}
+          options={{ cursor: false, breaklines: true, speed: 70 }}
+        >
+          Hello, my name is Aaron! {"\n"}I'm a Full-Stack developer with a
+          passion for {"\n"}problem solving, and building engaging user
+          experiences.
+        </TypeIt>
       </animated.div>
     </section>
   );
