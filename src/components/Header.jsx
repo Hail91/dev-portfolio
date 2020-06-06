@@ -1,6 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import TypeIt from "typeit-react";
+import pdf from "../files/Resume.pdf";
 
 const Header = () => {
   const headerFadeIn = useSpring({
@@ -10,10 +11,13 @@ const Header = () => {
     from: { opacity: 0, marginTop: -100 },
   });
 
-  // let info = [
-  //   "Hello, my name is Aaron! \nI'm a Full-Stack developer with a passion for \nproblem solving, and building engaging user experiences.",
-  //   "I'd love to get a conversation started!",
-  // ];
+  const btnFadeIn = useSpring({
+    config: { duration: 2000 },
+    opacity: 1,
+    visibility: "visible",
+    from: { opacity: 0, visibility: "hidden" },
+    delay: 11000,
+  });
 
   return (
     <section className="welcome-section" id="welcome">
@@ -36,10 +40,12 @@ const Header = () => {
             I'd love to get a conversation started!
           </p>
         </TypeIt>
-        <div className="header-btns-container">
-          <button style={{ marginRight: "20px" }}>View Resume (pdf)</button>
+        <animated.div className="header-btns-container" style={btnFadeIn}>
+          <a download href={pdf} style={{ marginRight: "20px" }}>
+            View Resume (pdf)
+          </a>
           <button>View Work</button>
-        </div>
+        </animated.div>
       </animated.div>
     </section>
   );

@@ -19,6 +19,24 @@
       justify-content: flex-start;
       margin-top: 3rem;
 
+      a {
+        padding: 7px 6px 7px 6px;
+        color: white;
+        background-color: $color-main-nav;
+        border: none;
+        border-radius: 2px;
+        opacity: 0.9;
+        transition: 300ms;
+        font-size: 1.5rem;
+        text-decoration: none;
+
+        &:hover {
+          cursor: pointer;
+          opacity: 1;
+          transition: 0.3s all;
+        }
+      }
+
       button {
         padding: 7px 6px 7px 6px;
         color: white;
@@ -33,6 +51,10 @@
           cursor: pointer;
           opacity: 1;
           transition: 0.3s all;
+        }
+
+        &:focus {
+          outline: none;
         }
       }
     }
