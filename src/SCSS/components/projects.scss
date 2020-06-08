@@ -3,8 +3,8 @@
   justify-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 15rem auto;
-  width: 50%;
+  margin: 10rem auto;
+  width: 40%;
   border-bottom: 1px solid $color-main-nav;
 
   .main-card {
@@ -28,6 +28,20 @@
   p {
     font-size: 1.5rem;
     margin-top: 1rem;
+  }
+
+  .more-info-btn {
+    &:after {
+      display: block;
+      content: "";
+      border-bottom: solid 1px $color-main-nav;
+      transform: scaleX(0);
+      transition: transform 400ms ease-in-out;
+    }
+
+    &:hover:after {
+      transform: scaleX(1);
+    }
   }
 
   button {
@@ -77,14 +91,23 @@
       height: 2.5rem;
       width: 9rem;
       margin-right: 20px;
-      color: $color-main-nav;
-      border: none;
       font-size: 1.5rem;
       outline: none;
+      color: white;
+      background-color: $color-main-nav;
+      border: none;
+      border-radius: 2px;
+      opacity: 0.9;
+      transition: 300ms;
 
       &:hover {
-        border: 1px solid $color-main-nav;
-        border-radius: 10px;
+        cursor: pointer;
+        opacity: 1;
+        transition: 0.3s all;
+      }
+
+      &:focus {
+        outline: none;
       }
     }
   }

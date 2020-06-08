@@ -31,7 +31,7 @@ const Skills = () => {
               cursor: "pointer",
             }}
           />
-          <p>HTML5</p>
+          <p>HTML</p>
         </div>
       ),
     },
@@ -139,6 +139,7 @@ const Skills = () => {
         offsetRadius={offsetRadius}
         showNavigation={navigation}
         animationConfig={Config.config}
+        goToSlideDelay={500}
       />
     </div>
   );
