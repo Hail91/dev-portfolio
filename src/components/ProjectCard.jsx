@@ -12,12 +12,16 @@ const ProjectCard = ({ data }) => {
   };
   return (
     <div className="main-card">
-      <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+      <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
         <div className="card-front">
           <img src={data.image} alt="project-1" />
           <h2>{data.name}</h2>
           <p>{data.description}</p>
-          <p onClick={handleFlip} style={{ color: "#197278" }}>
+          <p
+            className="more-info-btn"
+            onClick={handleFlip}
+            style={{ color: "#197278" }}
+          >
             Click for more information
           </p>
         </div>
