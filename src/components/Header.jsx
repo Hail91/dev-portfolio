@@ -4,13 +4,14 @@ import TypeIt from "typeit-react";
 import pdf from "../files/Resume.pdf";
 
 const Header = () => {
+  // Push header into view from top of page
   const headerFadeIn = useSpring({
     config: { friction: 15, tension: 60 },
     marginTop: 100,
     opacity: 1,
     from: { opacity: 0, marginTop: -100 },
   });
-
+  // Animation to fade in header buttons after text finishes typing
   const btnFadeIn = useSpring({
     config: { duration: 2000 },
     opacity: 1,
