@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { Checkmark } from "react-checkmark";
 
 const Contact = () => {
   // Create a state for object to be sent to the backend
@@ -8,10 +9,16 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  const [isLoading, setIsLoading] = useState(true);
   // Function to handle input inside of form
   const handleInput = (event) => {
     event.preventDefault();
     setContact({ ...contact, [event.target.name]: event.target.value });
+  };
+
+  const formReset = () => {
+    setContact({ firstName: "", lastName: "", email: "", message: "" });
   };
 
   // Function to send form data to backend API
@@ -31,11 +38,12 @@ const Contact = () => {
       .catch((error) => {
         console.log(error.response);
       });
+    setIsLoading(false);
   };
 
   return (
     <div className="contact-container">
-      <form className="contact-form">
+      <form onSubmit={handleSubmit} className="contact-form">
         <div className="name-form">
           <div className="first-name-input">
             <label>
@@ -96,8 +104,12 @@ const Contact = () => {
           <h3 style={{ marginTop: "5px", fontSize: "1.5rem" }}>
             <span>*</span>Indicates a required field
           </h3>
-          <button className="send-btn" type="submit" onClick={handleSubmit}>
-            Send
+          <button className="send-btn" type="submit" onClick={formReset}>
+            {isLoading ? (
+              <p>send</p>
+            ) : (
+              <Checkmark size={24} color={"#197278"} />
+            )}
           </button>
         </div>
       </form>
@@ -108,11 +120,11 @@ const Contact = () => {
           <p>+1 315-254-8427</p>
         </div>
         <div className="contact-methods">
-          <i class="far fa-envelope fa-lg"></i>
+          <i className="far fa-envelope fa-lg"></i>
           <p>aarongillies88@gmail.com</p>
         </div>
         <div className="contact-methods">
-          <i class="fab fa-twitter fa-lg"></i>
+          <i className="fab fa-twitter fa-lg"></i>
           <p>
             <a href="https://twitter.com/UpstateCoder91" target="_">
               twitter.com/UpstateCoder91
@@ -120,7 +132,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="contact-methods">
-          <i class="fab fa-linkedin fa-lg"></i>
+          <i className="fab fa-linkedin fa-lg"></i>
           <p>
             <a href="https://www.linkedin.com/in/aarongillies/" target="_">
               linkedin.com/in/aarongillies

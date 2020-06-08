@@ -9150,6 +9150,11 @@ react-card-flip@^1.0.10:
   resolved "https://registry.yarnpkg.com/react-card-flip/-/react-card-flip-1.0.10.tgz#f3eab968f2cba6de6eccb84cf73bcaf6b53fb974"
   integrity sha512-BqK6PmP+L/xmcH1AoMuirbxRuDIiaNy3r8734GJQqEyIWoW8L4j2c/di6mbNg+I2rGue3tLH1I9QbJLd7M89ww==
 
+react-checkmark@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-checkmark/-/react-checkmark-1.2.0.tgz#a746aa02c135ed5dfb7484b925e57ae7b0dfcafc"
+  integrity sha512-y7hipYiG/XfVmjPGc7BqU8bZLgxprZBdK0XRXAbmSnUx4rmAOKIzP/TU3ibBlpa0mZV9EO+v/th7D8HpyQ/7PA==
+
 react-dev-utils@^10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.1.tgz#f6de325ae25fa4d546d09df4bb1befdc6dd19c19"
