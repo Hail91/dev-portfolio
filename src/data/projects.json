@@ -14,7 +14,9 @@
         "SQLlite3",
         "JWT"
       ]
-    }
+    },
+    "deploy_link": "https://1lineadayapp.netlify.app/",
+    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
   },
   {
     "name": "Use My Tools",
@@ -31,7 +33,9 @@
         "SQLlite3",
         "Json web token"
       ]
-    }
+    },
+    "deploy_link": "https://1lineadayapp.netlify.app/",
+    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
   },
   {
     "name": "Chef Portfolio",
@@ -48,7 +52,9 @@
         "SQLlite3",
         "Json web token"
       ]
-    }
+    },
+    "deploy_link": "https://1lineadayapp.netlify.app/",
+    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
   },
   {
     "name": "Kansha Rewards",
@@ -66,6 +72,8 @@
         "JSON web token",
         "Auth0"
       ]
-    }
+    },
+    "deploy_link": "https://1lineadayapp.netlify.app/",
+    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
   }
 ]

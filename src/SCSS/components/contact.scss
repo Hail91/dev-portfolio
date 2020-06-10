@@ -12,6 +12,22 @@
       color: $color-main-nav;
     }
 
+    .dynamic-hover {
+      a {
+        &:after {
+          display: block;
+          content: "";
+          border-bottom: solid 1px $color-main-nav;
+          transform: scaleX(0);
+          transition: transform 400ms ease-in-out;
+        }
+
+        &:hover:after {
+          transform: scaleX(1);
+        }
+      }
+    }
+
     .contact-methods {
       margin-top: 2rem;
       display: flex;
