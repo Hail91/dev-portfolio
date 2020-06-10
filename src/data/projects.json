@@ -53,8 +53,8 @@
         "Json web token"
       ]
     },
-    "deploy_link": "https://1lineadayapp.netlify.app/",
-    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
+    "deploy_link": "https://chefportapp.netlify.app/",
+    "code_link": "https://github.com/Chef-Portfolio-9/Front-End"
   },
   {
     "name": "Kansha Rewards",
@@ -73,7 +73,7 @@
         "Auth0"
       ]
     },
-    "deploy_link": "https://1lineadayapp.netlify.app/",
-    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
+    "deploy_link": "https://kansharewards.com/",
+    "code_link": "https://github.com/Lambda-School-Labs/kansha-fe"
   }
 ]
