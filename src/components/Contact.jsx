@@ -39,7 +39,10 @@ const Contact = () => {
         console.log(error.response);
       });
     setIsLoading(false);
+    formReset();
   };
+
+  console.log(isLoading);
 
   return (
     <div className="contact-container">
@@ -104,7 +107,7 @@ const Contact = () => {
           <h3 style={{ marginTop: "5px", fontSize: "1.5rem" }}>
             <span>*</span>Indicates a required field
           </h3>
-          <button className="send-btn" type="submit" onClick={formReset}>
+          <button className="send-btn" type="submit">
             {isLoading ? (
               <p>send</p>
             ) : (
@@ -123,7 +126,7 @@ const Contact = () => {
           <i className="far fa-envelope fa-lg"></i>
           <p>aarongillies88@gmail.com</p>
         </div>
-        <div className="contact-methods">
+        <div className="contact-methods dynamic-hover">
           <i className="fab fa-twitter fa-lg"></i>
           <p>
             <a href="https://twitter.com/UpstateCoder91" target="_">
@@ -131,7 +134,7 @@ const Contact = () => {
             </a>
           </p>
         </div>
-        <div className="contact-methods">
+        <div className="contact-methods dynamic-hover">
           <i className="fab fa-linkedin fa-lg"></i>
           <p>
             <a href="https://www.linkedin.com/in/aarongillies/" target="_">
