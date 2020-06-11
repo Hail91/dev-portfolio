@@ -87,7 +87,7 @@
   .card-back-btns {
     margin-top: 2rem;
 
-    button {
+    a {
       height: 2.5rem;
       width: 9rem;
       margin-right: 20px;
@@ -99,6 +99,8 @@
       border-radius: 2px;
       opacity: 0.9;
       transition: 300ms;
+      text-decoration: none;
+      padding: 5px 5px 5px 5px;
 
       &:hover {
         cursor: pointer;

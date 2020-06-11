@@ -58,8 +58,12 @@ const ProjectCard = ({ data }) => {
             </p>
           </div>
           <div className="card-back-btns">
-            <button>View Code</button>
-            <button>View Deploy</button>
+            <a href={data.code_link} target="_">
+              View Code
+            </a>
+            <a href={data.deploy_link} target="_">
+              View Deploy
+            </a>
           </div>
         </div>
       </ReactCardFlip>
