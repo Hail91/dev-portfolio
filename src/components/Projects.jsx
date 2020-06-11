@@ -6,7 +6,7 @@ import ProjectData from "../data/projects.json";
 
 const Projects = () => {
   return (
-    <div id="Projects" className="projects-container">
+    <div id="projects" className="projects-container">
       {ProjectData.map((data) => {
         return <ProjectCard data={data} />;
       })}

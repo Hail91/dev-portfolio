@@ -20,7 +20,7 @@ function App() {
       </div>
       <Projects />
       <div className="title-header">
-        <h3>Get in touch!</h3>
+        <h3 style={{ marginBottom: "5rem" }}>Get in touch!</h3>
       </div>
       <Contact />
     </div>

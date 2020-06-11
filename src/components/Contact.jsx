@@ -45,7 +45,7 @@ const Contact = () => {
   console.log(isLoading);
 
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="name-form">
           <div className="first-name-input">
