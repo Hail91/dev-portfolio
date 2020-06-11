@@ -1,7 +1,4 @@
-import React, { useState } from "react";
-import Carousel from "react-spring-3d-carousel";
-import uuidv4 from "uuid";
-import { config } from "react-spring";
+import React from "react";
 
 // Icon Imports
 import { ReactComponent as HTML } from "./Icons/html.svg";
@@ -10,137 +7,59 @@ import { ReactComponent as Js } from "./Icons/js.svg";
 import { ReactComponent as Node } from "./Icons/node-js.svg";
 import { ReactComponent as ReactJS } from "./Icons/react.svg";
 import { ReactComponent as Sass } from "./Icons/sass.svg";
+import { ReactComponent as Git } from "./Icons/git.svg";
+import { ReactComponent as Bootstrap } from "./Icons/bootstrap.svg";
+import { ReactComponent as DB } from "./Icons/database.svg";
+import { ReactComponent as Less } from "./Icons/less.svg";
+import { ReactComponent as Python } from "./Icons/python.svg";
 // -------------------
 const Skills = () => {
-  const [Config] = useState({ config: config.slow });
-  const [slide, setSlide] = useState(0);
-  const [offsetRadius] = useState(2);
-  const [navigation] = useState(false);
-  // const [showInfo, setShowInfo] = useState(false);
-
-  const SkillsSlides = [
-    {
-      key: uuidv4(),
-      content: (
-        <div className="icon-container">
-          <HTML
-            style={{
-              height: "20rem",
-              width: "25rem",
-              color: "#E44D26",
-              cursor: "pointer",
-            }}
-          />
-          <p>HTML</p>
-        </div>
-      ),
-    },
-    {
-      key: uuidv4(),
-      content: (
-        <div className="icon-container">
-          <Css
-            style={{
-              height: "20rem",
-              width: "25rem",
-              color: "2965f1",
-              cursor: "pointer",
-            }}
-          />
-          <p>CSS3</p>
-        </div>
-      ),
-    },
-    {
-      key: uuidv4(),
-      content: (
-        <div className="icon-container">
-          <Sass
-            style={{
-              height: "20rem",
-              width: "25rem",
-              color: " #cd6799",
-              cursor: "pointer",
-            }}
-          />
-          <p>Sass</p>
-        </div>
-      ),
-    },
-    {
-      key: uuidv4(),
-      content: (
-        <div className="icon-container">
-          <Js
-            style={{
-              height: "20rem",
-              width: "25rem",
-              color: "#f0db4f",
-              cursor: "pointer",
-            }}
-          />
-          <p>JavaScript</p>
-        </div>
-      ),
-    },
-    {
-      key: uuidv4(),
-      content: (
-        <div className="icon-container">
-          <Node
-            style={{
-              height: "20rem",
-              width: "25rem",
-              color: "#3C873A",
-              cursor: "pointer",
-            }}
-          />
-          <p>NodeJS</p>
-        </div>
-      ),
-    },
-    {
-      key: uuidv4(),
-      content: (
-        <div className="icon-container">
-          <ReactJS
-            style={{
-              height: "20rem",
-              width: "25rem",
-              color: "#61DBFB",
-              cursor: "pointer",
-            }}
-          />
-          <p>ReactJS</p>
-        </div>
-      ),
-    },
-    {
-      key: uuidv4(),
-      content: (
-        <div className="icon-container">
-          <img
-            src="https://img.icons8.com/color/144/000000/python.png"
-            alt="logo"
-          />
-          <p>Python</p>
-        </div>
-      ),
-    },
-  ].map((slide, index) => {
-    return { ...slide, onClick: () => setSlide(index) };
-  });
-
   return (
     <div id="#skills" className="Skills-cont">
-      <Carousel
-        slides={SkillsSlides}
-        goToSlide={slide}
-        offsetRadius={offsetRadius}
-        showNavigation={navigation}
-        animationConfig={Config.config}
-        goToSlideDelay={500}
-      />
+      <div>
+        <HTML className="skills-svg" style={{ color: "#e34c26" }} />
+        <p>HTML</p>
+      </div>
+      <div>
+        <Css className="skills-svg" style={{ color: "#264de4" }} />
+        <p>CSS</p>
+      </div>
+      <div>
+        <Js className="skills-svg" style={{ color: "#F0DB4F" }} />
+        <p>JavaScript</p>
+      </div>
+      <div>
+        <Node className="skills-svg" style={{ color: "3C873A" }} />
+        <p>NodeJS</p>
+      </div>
+      <div>
+        <ReactJS className="skills-svg" style={{ color: "61dafb" }} />
+        <p>ReactJS</p>
+      </div>
+      <div>
+        <Sass className="skills-svg" style={{ color: "cc6699" }} />
+        <p>SASS</p>
+      </div>
+      <div>
+        <Git className="skills-svg" style={{ color: "F1502F" }} />
+        <p>Git</p>
+      </div>
+      <div>
+        <Bootstrap className="skills-svg" style={{ color: "563d7c" }} />
+        <p>Bootstrap</p>
+      </div>
+      <div>
+        <DB className="skills-svg" style={{ color: "01A6F0" }} />
+        <p>SQL</p>
+      </div>
+      <div>
+        <Less className="skills-svg" style={{ color: "003366" }} />
+        <p>LESS</p>
+      </div>
+      <div>
+        <Python className="skills-svg" />
+        <p>Python</p>
+      </div>
     </div>
   );
 };

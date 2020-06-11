@@ -1,12 +1,23 @@
 .Skills-cont {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 12rem;
+  padding-bottom: 5rem;
   width: 30%;
-  height: 300px;
   margin: 0 auto;
-  // border-top: 0.5px solid $color-main-nav;
   border-bottom: 0.5px solid $color-main-nav;
+
+  p {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .skills-svg {
+    height: 12rem;
+    margin: 3rem 0 3rem 0;
+  }
 }
 
 .icon-container {

@@ -12,7 +12,7 @@ const ProjectCard = ({ data }) => {
   };
   return (
     <div className="main-card">
-      <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
+      <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div className="card-front">
           <img src={data.image} alt="project-1" />
           <h2>{data.name}</h2>

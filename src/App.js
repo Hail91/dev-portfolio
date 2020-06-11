@@ -11,8 +11,17 @@ function App() {
     <div>
       <NavBar />
       <Header />
+      <div className="title-header">
+        <h3>Skills</h3>
+      </div>
       <Skills />
+      <div className="title-header">
+        <h3>Projects</h3>
+      </div>
       <Projects />
+      <div className="title-header">
+        <h3>Get in touch!</h3>
+      </div>
       <Contact />
     </div>
   );
