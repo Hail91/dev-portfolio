@@ -15,7 +15,7 @@ import { ReactComponent as Python } from "./Icons/python.svg";
 // -------------------
 const Skills = () => {
   return (
-    <div id="#skills" className="Skills-cont">
+    <div id="skills" className="Skills-cont">
       <div>
         <HTML className="skills-svg" style={{ color: "#e34c26" }} />
         <p>HTML</p>
