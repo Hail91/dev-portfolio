@@ -1,5 +1,4 @@
 import React from "react";
-import { config } from "react-spring";
 
 // Icon Imports
 import { ReactComponent as HTML } from "./Icons/html.svg";
