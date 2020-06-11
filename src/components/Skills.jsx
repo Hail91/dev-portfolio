@@ -13,12 +13,12 @@ const Skills = () => {
   return (
     <div id="#skills" className="Skills-cont">
       {/* <h2>Skills go here</h2> */}
-      <HTML className="skills-svg" />
-      <Css className="skills-svg" />
-      <Js className="skills-svg" />
-      <Node className="skills-svg" />
-      <ReactJS className="skills-svg" />
-      <Sass className="skills-svg" />
+      <HTML className="skills-svg" style={{ color: "#e34c26" }} />
+      <Css className="skills-svg" style={{ color: "#264de4" }} />
+      <Js className="skills-svg" style={{ color: "#F0DB4F" }} />
+      <Node className="skills-svg" style={{ color: "3C873A" }} />
+      <ReactJS className="skills-svg" style={{ color: "61dafb" }} />
+      <Sass className="skills-svg" style={{ color: "cc6699" }} />
     </div>
   );
 };
