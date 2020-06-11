@@ -17,18 +17,50 @@ import { ReactComponent as Python } from "./Icons/python.svg";
 const Skills = () => {
   return (
     <div id="#skills" className="Skills-cont">
-      {/* <h2>Skills go here</h2> */}
-      <HTML className="skills-svg" style={{ color: "#e34c26" }} />
-      <Css className="skills-svg" style={{ color: "#264de4" }} />
-      <Js className="skills-svg" style={{ color: "#F0DB4F" }} />
-      <Node className="skills-svg" style={{ color: "3C873A" }} />
-      <ReactJS className="skills-svg" style={{ color: "61dafb" }} />
-      <Sass className="skills-svg" style={{ color: "cc6699" }} />
-      <Git className="skills-svg" style={{ color: "F1502F" }} />
-      <Bootstrap className="skills-svg" style={{ color: "563d7c" }} />
-      <DB className="skills-svg" style={{ color: "01A6F0" }} />
-      <Less className="skills-svg" style={{ color: "003366" }} />
-      <Python className="skills-svg" />
+      <div>
+        <HTML className="skills-svg" style={{ color: "#e34c26" }} />
+        <p>HTML</p>
+      </div>
+      <div>
+        <Css className="skills-svg" style={{ color: "#264de4" }} />
+        <p>CSS</p>
+      </div>
+      <div>
+        <Js className="skills-svg" style={{ color: "#F0DB4F" }} />
+        <p>JavaScript</p>
+      </div>
+      <div>
+        <Node className="skills-svg" style={{ color: "3C873A" }} />
+        <p>NodeJS</p>
+      </div>
+      <div>
+        <ReactJS className="skills-svg" style={{ color: "61dafb" }} />
+        <p>ReactJS</p>
+      </div>
+      <div>
+        <Sass className="skills-svg" style={{ color: "cc6699" }} />
+        <p>SASS</p>
+      </div>
+      <div>
+        <Git className="skills-svg" style={{ color: "F1502F" }} />
+        <p>Git</p>
+      </div>
+      <div>
+        <Bootstrap className="skills-svg" style={{ color: "563d7c" }} />
+        <p>Bootstrap</p>
+      </div>
+      <div>
+        <DB className="skills-svg" style={{ color: "01A6F0" }} />
+        <p>SQL</p>
+      </div>
+      <div>
+        <Less className="skills-svg" style={{ color: "003366" }} />
+        <p>LESS</p>
+      </div>
+      <div>
+        <Python className="skills-svg" />
+        <p>Python</p>
+      </div>
     </div>
   );
 };
