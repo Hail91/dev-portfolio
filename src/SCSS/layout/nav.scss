@@ -1,14 +1,28 @@
 .nav-bar {
-  background-color: $color-main-nav;
+  // background-color: $color-main-nav;
   height: 5rem;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+
+  .nav-items {
+    display: flex;
+  }
 
   a {
     font-size: 2.5rem;
     text-decoration: none;
     margin-left: 2rem;
-    color: white;
+    color: $color-main-nav;
+
+    &:after {
+      display: block;
+      content: "";
+      border-bottom: solid 1px $color-main-nav;
+      transform: scaleX(0);
+      transition: transform 400ms ease-in-out;
+    }
+
+    &:hover:after {
+      transform: scaleX(1);
+    }
   }
 }

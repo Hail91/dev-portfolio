@@ -57,7 +57,7 @@ const Skills = () => {
         <p>LESS</p>
       </div>
       <div>
-        <Python className="skills-svg" />
+        <Python className="skills-svg" style={{ color: "4B8BBE" }} />
         <p>Python</p>
       </div>
     </div>
