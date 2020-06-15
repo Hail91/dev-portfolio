@@ -1,4 +1,5 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 // Icon Imports
 import { ReactComponent as HTML } from "./Icons/html.svg";
@@ -14,8 +15,17 @@ import { ReactComponent as Less } from "./Icons/less.svg";
 import { ReactComponent as Python } from "./Icons/python.svg";
 // -------------------
 const Skills = () => {
+  // Function to create smooth fade in as component loads
+  const skillsFade = useSpring({
+    config: { duration: 1500 },
+    opacity: 1,
+    visibility: "visible",
+    from: { opacity: 0, visibility: "hidden" },
+    delay: 12000,
+  });
+
   return (
-    <div id="skills" className="Skills-cont">
+    <animated.div id="skills" className="Skills-cont" style={skillsFade}>
       <div>
         <HTML className="skills-svg" style={{ color: "#e34c26" }} />
         <p>HTML</p>
@@ -60,7 +70,7 @@ const Skills = () => {
         <Python className="skills-svg" style={{ color: "4B8BBE" }} />
         <p>Python</p>
       </div>
-    </div>
+    </animated.div>
   );
 };
 export default Skills;

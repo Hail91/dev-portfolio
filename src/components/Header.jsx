@@ -45,7 +45,7 @@ const Header = () => {
           <a download href={pdf} style={{ marginRight: "20px" }}>
             View Resume (pdf)
           </a>
-          <button>View Work</button>
+          <a href="#projects">View Work</a>
         </animated.div>
       </animated.div>
     </section>

@@ -16,7 +16,7 @@ const Contact = () => {
     event.preventDefault();
     setContact({ ...contact, [event.target.name]: event.target.value });
   };
-
+  // Resets form after API call resolves
   const formReset = () => {
     setContact({ firstName: "", lastName: "", email: "", message: "" });
   };
@@ -93,6 +93,7 @@ const Contact = () => {
           </label>
           <textarea
             style={{
+              fontSize: "2rem",
               paddingLeft: "6px",
               paddingTop: "5px",
               width: "25rem",
