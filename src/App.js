@@ -23,6 +23,20 @@ function App() {
         <h3 style={{ marginBottom: "5rem" }}>Get in touch!</h3>
       </div>
       <Contact />
+      <a
+        href="#welcome"
+        style={{
+          textDecoration: "none",
+          cursor: "pointer",
+          color: "#197278",
+          fontSize: "1.8rem",
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "5rem",
+        }}
+      >
+        Back to top
+      </a>
     </div>
   );
 }
