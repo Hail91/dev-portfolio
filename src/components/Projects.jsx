@@ -2,15 +2,27 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 // Import JSON file to map over and render card
 import ProjectData from "../data/projects.json";
-// Need to build card component for each project with relavent links to code and deploy
+// import VisibilitySensor from "react-visibility-sensor";
+import { useSpring, animated } from "react-spring";
 
 const Projects = () => {
+  const skillsSectionFade = useSpring({
+    config: { duration: 1500 },
+    opacity: 1,
+    visibility: "visible",
+    from: { opacity: 0, visibility: "hidden" },
+    delay: 13000,
+  });
   return (
-    <div id="projects" className="projects-container">
+    <animated.div
+      style={skillsSectionFade}
+      id="projects"
+      className="projects-container"
+    >
       {ProjectData.map((data) => {
         return <ProjectCard data={data} />;
       })}
-    </div>
+    </animated.div>
   );
 };
 
