@@ -1,7 +1,7 @@
 [
   {
     "name": "One Line A Day",
-    "description": "Basic note taking application allowing users to create/store/update/delete notes.",
+    "description": "One Line a Day is a user-friendly note-taking web application with a smooth and attractive user interface, get all your feelings down in one place to revisit later.",
     "image": "https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80",
     "tech_stack": {
       "frontend": ["ReactJS", "Redux", "CSS", "SASS", "Axios"],
@@ -16,7 +16,12 @@
       ]
     },
     "deploy_link": "https://1lineadayapp.netlify.app/",
-    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
+    "code_link": "https://github.com/Build-Week-OneLineADay/FE",
+    "project_info": [
+      "Built responsive and user-friendly landing/marketing page using HTML/CSS.",
+      "Collaborated with Front end engineers to make sure user experience and application style was consistent throughout the entire application.",
+      "Front end is deployed using Netlify, Back end is deployed using Heroku."
+    ]
   },
   {
     "name": "Use My Tools",

@@ -5,7 +5,7 @@ import Header from "./components/Header.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
-
+// Animation imports
 import { useSpring, animated } from "react-spring";
 import VisibilitySensor from "react-visibility-sensor";
 import { Spring, config } from "react-spring/renderprops";
