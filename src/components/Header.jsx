@@ -28,7 +28,7 @@ const Header = () => {
           options={{
             cursor: false,
             breaklines: true,
-            speed: 60,
+            speed: 40,
           }}
         >
           <p>
