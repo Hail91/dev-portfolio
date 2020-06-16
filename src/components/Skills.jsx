@@ -21,7 +21,7 @@ const Skills = () => {
     opacity: 1,
     visibility: "visible",
     from: { opacity: 0, visibility: "hidden" },
-    delay: 12000,
+    delay: 7500,
   });
 
   return (

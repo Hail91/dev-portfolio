@@ -6,16 +6,16 @@ import ProjectData from "../data/projects.json";
 import { useSpring, animated } from "react-spring";
 
 const Projects = () => {
-  const skillsSectionFade = useSpring({
+  const projectSectionFade = useSpring({
     config: { duration: 1500 },
     opacity: 1,
     visibility: "visible",
     from: { opacity: 0, visibility: "hidden" },
-    delay: 13000,
+    delay: 9300,
   });
   return (
     <animated.div
-      style={skillsSectionFade}
+      style={projectSectionFade}
       id="projects"
       className="projects-container"
     >

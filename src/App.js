@@ -7,6 +7,8 @@ import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 
 import { useSpring, animated } from "react-spring";
+import VisibilitySensor from "react-visibility-sensor";
+import { Spring, config } from "react-spring/renderprops";
 
 function App() {
   const skillsHeader = useSpring({
@@ -14,7 +16,15 @@ function App() {
     opacity: 1,
     visibility: "visible",
     from: { opacity: 0, visibility: "hidden" },
-    delay: 11500,
+    delay: 7000,
+  });
+
+  const projectsHeader = useSpring({
+    config: { duration: 1500 },
+    opacity: 1,
+    visibility: "visible",
+    from: { opacity: 0, visibility: "hidden" },
+    delay: 8500,
   });
   return (
     <div>
@@ -24,16 +34,28 @@ function App() {
         <h3>Skills</h3>
       </animated.div>
       <Skills />
-      <div className="title-header">
+      <animated.div style={projectsHeader} className="title-header">
         <h3>Projects</h3>
-      </div>
+      </animated.div>
       <Projects />
-      <div className="title-header">
-        <h3 style={{ marginBottom: "5rem" }}>Get in touch!</h3>
-      </div>
+      <VisibilitySensor once>
+        {({ isVisible }) => (
+          <Spring
+            config={config.molasses}
+            delay={100}
+            to={{ opacity: isVisible ? 1 : 0 }}
+          >
+            {({ opacity }) => (
+              <div style={{ opacity }} className="title-header">
+                <h3 style={{ marginBottom: "5rem" }}>Get in touch!</h3>
+              </div>
+            )}
+          </Spring>
+        )}
+      </VisibilitySensor>
       <Contact />
       <a
-        href="#welcome"
+        href="#nav"
         style={{
           textDecoration: "none",
           cursor: "pointer",
