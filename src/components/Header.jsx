@@ -17,7 +17,7 @@ const Header = () => {
     opacity: 1,
     visibility: "visible",
     from: { opacity: 0, visibility: "hidden" },
-    delay: 11000,
+    delay: 6500,
   });
 
   return (
@@ -28,7 +28,7 @@ const Header = () => {
           options={{
             cursor: false,
             breaklines: true,
-            speed: 60,
+            speed: 35,
           }}
         >
           <p>

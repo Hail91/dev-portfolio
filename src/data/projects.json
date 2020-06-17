@@ -1,7 +1,7 @@
 [
   {
     "name": "One Line A Day",
-    "description": "Basic note taking application allowing users to create/store/update/delete notes.",
+    "description": "One Line a Day is a user-friendly note-taking web application with a smooth and attractive user interface, get all your feelings down in one place to revisit later.",
     "image": "https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80",
     "tech_stack": {
       "frontend": ["ReactJS", "Redux", "CSS", "SASS", "Axios"],
@@ -16,7 +16,12 @@
       ]
     },
     "deploy_link": "https://1lineadayapp.netlify.app/",
-    "code_link": "https://github.com/Build-Week-OneLineADay/FE"
+    "code_link": "https://github.com/Build-Week-OneLineADay/FE",
+    "project_info": [
+      "Built responsive and user-friendly landing/marketing page using HTML/CSS.",
+      "Collaborated with Front end engineers to make sure user experience and application style was consistent throughout the entire application.",
+      "Front end is deployed using Netlify, Back end is deployed using Heroku."
+    ]
   },
   {
     "name": "Use My Tools",
@@ -35,7 +40,11 @@
       ]
     },
     "deploy_link": "https://mytools.netlify.app/",
-    "code_link": "https://github.com/buildweek-use-my-tools/front-end"
+    "code_link": "https://github.com/buildweek-use-my-tools/front-end",
+    "project_info": [
+      "Built out the Front End interface and integrated with our backend to deliver full create, read, update, and delete functionality for the project data.",
+      "Collaborated with other Front End engineers and Backend engineer to deliver the project to the required specification over the course of one week."
+    ]
   },
   {
     "name": "Chef Portfolio",
@@ -54,7 +63,12 @@
       ]
     },
     "deploy_link": "https://chefportapp.netlify.app/",
-    "code_link": "https://github.com/Chef-Portfolio-9/Front-End"
+    "code_link": "https://github.com/Chef-Portfolio-9/Front-End",
+    "project_info": [
+      "Worked as lead react engineer with a team of three other full-stack developers to plan and deliver the application in one week to designated speciﬁcation, and on time.",
+      "Collaborated with the back-end engineer often throughout the project to ensure seamless integration with the server/database.",
+      "Solely responsible for building login/authentication flow using JSON web token and bcrypt for key encryption."
+    ]
   },
   {
     "name": "Kansha Rewards",
@@ -74,6 +88,7 @@
       ]
     },
     "deploy_link": "https://kansharewards.com/",
-    "code_link": "https://github.com/Lambda-School-Labs/kansha-fe"
+    "code_link": "https://github.com/Lambda-School-Labs/kansha-fe",
+    "project_info": []
   }
 ]
