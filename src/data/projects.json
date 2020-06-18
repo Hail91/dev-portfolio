@@ -67,7 +67,8 @@
     "project_info": [
       "Worked as lead react engineer with a team of three other full-stack developers to plan and deliver the application in one week to designated speciﬁcation, and on time.",
       "Collaborated with the back-end engineer often throughout the project to ensure seamless integration with the server/database.",
-      "Solely responsible for building login/authentication flow using JSON web token and bcrypt for key encryption."
+      "Solely responsible for building login/authentication flow using JSON web token and bcrypt for secure password encryption.",
+      "Planned and implemented Create/Read/Update/Delete functionality for User and Recipe data across the application."
     ]
   },
   {
@@ -89,6 +90,10 @@
     },
     "deploy_link": "https://kansharewards.com/",
     "code_link": "https://github.com/Lambda-School-Labs/kansha-fe",
-    "project_info": []
+    "project_info": [
+      "Worked on a team of seven full-stack developers, and one UX designer to plan and deliver a full-stack production-ready application over the course of two months.",
+      "Refactored the entire user onboarding process and helped plan and build the bulk user upload feature which allows new users to upload potentially hundreds of users at once to their organization's account via a CSV ﬁle.",
+      "Built out multiple dynamic components to support the ability of the organization administrator to set up and manage teams within their organization account. This resulted in a usability score > 95% from user surveys that were conducted bi-weekly."
+    ]
   }
 ]

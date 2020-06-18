@@ -50,12 +50,16 @@ const ProjectCard = ({ data }) => {
             <hr
               style={{ width: "198px", color: "#197278", marginLeft: "50px" }}
             />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-              lobortis mattis aliquam faucibus purus in. Purus sit amet volutpat
-              consequat mauris nunc.
-            </p>
+            <div>
+              {data.project_info.map((info) => {
+                return (
+                  <p style={{ marginRight: "10px" }}>
+                    <span>- </span>
+                    {info}
+                  </p>
+                );
+              })}
+            </div>
           </div>
           <div className="card-back-btns">
             <a href={data.code_link} target="_">
