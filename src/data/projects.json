@@ -93,9 +93,7 @@
     "project_info": [
       "Worked on a team of seven full-stack developers, and one UX designer to plan and deliver a full-stack production-ready application over the course of two months.",
       "Refactored the entire user onboarding process and helped plan and build the bulk user upload feature which allows new users to upload potentially hundreds of users at once to their organization's account via a CSV ﬁle.",
-      "Built out multiple dynamic components to support the ability of the organization administrator to set up and manage teams within their organization account. This resulted in a usability score > 95% from user surveys that were conducted bi-weekly.",
-      "Met weekly with product manager and engineering manager to discuss progress or blockers. Also met weekly with product stakeholder to discuss potential new features, design changes, etc.",
-      "Participated in code reviews with project lead, as well as reviewed code from other team members to ensure code quality was consistent and met standards."
+      "Built out multiple dynamic components to support the ability of the organization administrator to set up and manage teams within their organization account. This resulted in a usability score > 95% from user surveys that were conducted bi-weekly."
     ]
   }
 ]
