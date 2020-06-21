@@ -7,6 +7,10 @@
   margin-bottom: 7rem;
   height: 30rem;
 
+  @media (max-width: 500px) {
+    text-align: center;
+  }
+
   h1 {
     font-size: 4rem;
   }
@@ -19,6 +23,11 @@
       display: flex;
       justify-content: flex-start;
       margin-top: 3rem;
+
+      @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+      }
 
       a {
         padding: 7px 6px 7px 6px;

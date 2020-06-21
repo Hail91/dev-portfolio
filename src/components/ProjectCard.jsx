@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
-// Images
-
 const ProjectCard = ({ data }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
