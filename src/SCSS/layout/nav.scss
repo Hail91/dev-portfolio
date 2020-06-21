@@ -5,6 +5,10 @@
 
   .nav-items {
     display: flex;
+
+    @media (max-width: 500px) {
+      margin-left: 4rem;
+    }
   }
 
   a {

@@ -157,6 +157,26 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
+              <div className="mobile-additional-contact">
+                <a href="https://twitter.com/UpstateCoder91" target="_">
+                  <i
+                    className="fab fa-twitter fa-3x"
+                    style={{ color: "#197278" }}
+                  ></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aarongillies/" target="_">
+                  <i
+                    className="fab fa-linkedin fa-3x"
+                    style={{ color: "#197278" }}
+                  ></i>
+                </a>
+                <a href="https://github.com/Hail91" target="_">
+                  <i
+                    class="fab fa-github fa-3x"
+                    style={{ color: "#197278" }}
+                  ></i>
+                </a>
+              </div>
             </div>
           )}
         </Spring>
