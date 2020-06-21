@@ -4,9 +4,34 @@
   align-items: center;
   margin-bottom: 10rem;
 
+  .mobile-additional-contact {
+    display: none;
+
+    @media (max-width: 500px) {
+      display: flex;
+      margin-top: 3rem;
+    }
+
+    i {
+      @media (max-width: 500px) {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .contact-info {
     height: 39rem;
     margin-left: 5rem;
+
+    @media (max-width: 500px) {
+      display: none;
+    }
 
     i {
       color: $color-main-nav;
