@@ -95,5 +95,30 @@
       "Refactored the entire user onboarding process and helped plan and build the bulk user upload feature which allows new users to upload potentially hundreds of users at once to their organization's account via a CSV ﬁle.",
       "Built out multiple dynamic components to support the ability of the organization administrator to set up and manage teams within their organization account. This resulted in a usability score > 95% from user surveys that were conducted bi-weekly."
     ]
+  },
+  {
+    "name": "Business Card Organizer API",
+    "description": "Business Card Organizer is an application designed to help users share and collect business cards.",
+    "image": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2725&q=80",
+    "tech_stack": {
+      "frontend": ["ReactJS", "CSS", "Axios", "Context"],
+      "backend": [
+        "Node",
+        "Express",
+        "Knex",
+        "PostgresQL",
+        "Jest",
+        "SQLite3",
+        "JSON web token"
+      ]
+    },
+    "deploy_link": "https://business-card-collector.herokuapp.com/",
+    "code_link": "https://github.com/Build-Week-Business-Card-Organizer-2/Backend",
+    "project_info": [
+      "Worked to deliver an API used in an application to help people organize and share business card information on an easy to use platform.",
+      "Designed Database schema and implemented RESTful API to serve up data to a ReactJS client",
+      "Built out routes and database models to serve up 100% Create/Read/Update/Delete functionality to Front End.",
+      "Wrote tests for 100% of application endpoints using Jest testing framework, adhered to test driven development pattern by consistently testing routes as they were completed."
+    ]
   }
 ]

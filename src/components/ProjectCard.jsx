@@ -64,7 +64,7 @@ const ProjectCard = ({ data }) => {
               View Code
             </a>
             <a href={data.deploy_link} target="_">
-              View Deploy
+              View Demo
             </a>
           </div>
         </div>
