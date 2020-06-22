@@ -12,6 +12,27 @@
     justify-content: center;
   }
 
+  @media (max-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  @media (max-width: 1500px) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 75%;
+  }
+
+  @media (max-width: 2000px) {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 60%;
+  }
+
   .main-card {
     margin-bottom: 5rem;
   }

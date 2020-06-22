@@ -7,11 +7,18 @@
   width: 30%;
   margin: 0 auto;
   border-bottom: 0.5px solid $color-main-nav;
-
+  // Mobile
   @media (max-width: 500px) {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-around;
+  }
+  // Tablet
+  @media (max-width: 1000px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
     justify-content: space-around;
   }
 
