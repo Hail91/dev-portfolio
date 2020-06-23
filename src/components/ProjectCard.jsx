@@ -23,8 +23,23 @@ const ProjectCard = ({ data }) => {
             Click for more information
           </p>
         </div>
-        <div onMouseLeave={handleFlip} className="card-back">
-          <h1>Technology Used</h1>
+        <div className="card-back">
+          <div className="card-back-header">
+            <h1 style={{ marginLeft: "5rem" }}>Technology Used</h1>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "30px",
+              }}
+            >
+              <i
+                onClick={handleFlip}
+                style={{ color: "#197278" }}
+                class="fas fa-arrow-right fa-2x"
+              ></i>
+            </div>
+          </div>
           <div className="tech-stack-cont">
             <div className="front-end-stack">
               <h2>Front-end</h2>
