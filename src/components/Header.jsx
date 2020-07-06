@@ -43,7 +43,7 @@ const Header = () => {
         </TypeIt>
         <animated.div className="header-btns-container" style={btnFadeIn}>
           <a download href={pdf} style={{ marginRight: "20px" }}>
-            View Resume (pdf)
+            Download Resume
           </a>
           <a href="#projects">View Work</a>
         </animated.div>

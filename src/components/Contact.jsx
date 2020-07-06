@@ -115,8 +115,8 @@ const Contact = () => {
                     name="message"
                     placeholder="Message"
                   ></textarea>
-                  <h3 style={{ marginTop: "5px", fontSize: "1.5rem" }}>
-                    <span>*</span>Indicates a required field
+                  <h3 style={{ marginTop: "5px", fontSize: "1.3rem" }}>
+                    <span>* </span>Indicates a required field
                   </h3>
                   <button className="send-btn" type="submit">
                     {isLoading ? (
