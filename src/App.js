@@ -5,6 +5,7 @@ import Header from "./components/Header.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 // Animation imports
 import { useSpring, animated } from "react-spring";
 import VisibilitySensor from "react-visibility-sensor";
@@ -63,11 +64,12 @@ function App() {
           fontSize: "1.8rem",
           display: "flex",
           justifyContent: "center",
-          marginBottom: "5rem",
+          marginBottom: "2rem",
         }}
       >
         Back to top
       </a>
+      <Footer />
     </div>
   );
 }
