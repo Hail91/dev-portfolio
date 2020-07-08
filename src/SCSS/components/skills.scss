@@ -7,6 +7,10 @@
   width: 30%;
   margin: 0 auto;
   border-bottom: 0.5px solid $color-main-nav;
+
+  div {
+    margin-right: 1rem;
+  }
   // Mobile
   @media (max-width: 500px) {
     display: flex;

@@ -9,7 +9,7 @@
 
   @media (max-width: 500px) {
     text-align: center;
-    width: 40rem;
+    width: 100vw;
     margin: 0 auto;
     margin-bottom: 3rem;
   }
@@ -30,6 +30,10 @@
       display: flex;
       justify-content: flex-start;
       margin-top: 3rem;
+
+      @media (max-width: 500px) {
+        margin-bottom: 3rem;
+      }
 
       @media (max-width: 500px) {
         display: flex;
