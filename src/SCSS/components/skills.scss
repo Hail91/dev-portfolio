@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
 .Skills-cont {
   display: flex;
   justify-content: center;
@@ -28,7 +30,8 @@
 
   p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: "Architects Daughter", cursive;
   }
 
   .skills-svg {
