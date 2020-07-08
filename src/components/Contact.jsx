@@ -47,7 +47,7 @@ const Contact = () => {
   console.log(isLoading);
 
   return (
-    <VisibilitySensor once>
+    <VisibilitySensor partialVisibility={true} minTopValue={5} once>
       {({ isVisible }) => (
         <Spring
           config={config.molasses}
