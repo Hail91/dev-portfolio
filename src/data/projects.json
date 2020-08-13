@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "One Line A Day",
-    "description": "One Line a Day is a user-friendly note-taking web application with a smooth and attractive user interface, get all your feelings down in one place to revisit later.",
+    "description": "One Line a Day is a user-friendly note-taking web application with a smooth and attractive user interface.",
     "image": "https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80",
     "tech_stack": {
       "frontend": ["ReactJS", "Redux", "CSS", "SASS", "Axios"],
@@ -13,21 +13,21 @@
         "PostgresQL",
         "Jest",
         "SQLlite3",
-        "JWT"
+        "JSON Web Token"
       ]
     },
     "deploy_link": "https://1lineadayapp.netlify.app/",
     "code_link": "https://github.com/Build-Week-OneLineADay/FE",
     "project_info": [
       "Built responsive and user-friendly landing/marketing page using HTML/CSS.",
-      "Collaborated with Front end engineers to make sure user experience and application style was consistent throughout the entire application.",
-      "Front end is deployed using Netlify, Back end is deployed using Heroku."
+      "Worked with a team of full stack developers to deliver a user-friendly note-taking web application in one week.",
+      "Collaborated with Front end engineers to make sure user experience and application style was consistent throughout the entire application."
     ]
   },
   {
     "id": 2,
     "name": "Use My Tools",
-    "description": "Use My Tools is an application where users can rent out or borrow tools from other users with 100% CRUD functionality.",
+    "description": "Use My Tools is an application where users can rent out or borrow tools from other users with ease.",
     "image": "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
     "tech_stack": {
       "frontend": ["ReactJS", "Redux", "CSS", "Axios"],
@@ -38,7 +38,7 @@
         "PostgresQL",
         "Jest",
         "SQLlite3",
-        "Json web token"
+        "JSON web token"
       ]
     },
     "deploy_link": "https://mytools.netlify.app/",
@@ -51,7 +51,7 @@
   {
     "id": 3,
     "name": "Chef Portfolio",
-    "description": "Chef Portfolio is an application for chefs to share their amazing creations with the world and with 100% CRUD functionality.",
+    "description": "Chef Portfolio is an application for chefs to share their amazing creations with the world.",
     "image": "https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
     "tech_stack": {
       "frontend": ["ReactJS", "Redux", "CSS", "Sass", "MaterialUI", "Axios"],
@@ -62,7 +62,7 @@
         "PostgresQL",
         "Jest",
         "SQLlite3",
-        "Json web token"
+        "JSON web token"
       ]
     },
     "deploy_link": "https://chefportapp.netlify.app/",
@@ -97,7 +97,9 @@
     "project_info": [
       "Worked on a team of seven full-stack developers, and one UX designer to plan and deliver a full-stack production-ready application over the course of two months.",
       "Refactored the entire user onboarding process and helped plan and build the bulk user upload feature which allows new users to upload potentially hundreds of users at once to their organization's account via a CSV ﬁle.",
-      "Built out multiple dynamic components to support the ability of the organization administrator to set up and manage teams within their organization account. This resulted in a usability score > 95% from user surveys that were conducted bi-weekly."
+      "Built out multiple dynamic components to support the ability of the organization administrator to set up and manage teams within their organization account. This resulted in a usability score greater than 95% from user surveys that were conducted bi-weekly.",
+      "Completely Refactored application styling away from MaterialUI, and instead implemented SASS for greater control over application style.",
+      "Wrote tests for user authentication for back-end server using Jest framework."
     ]
   },
   {

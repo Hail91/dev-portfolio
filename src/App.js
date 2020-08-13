@@ -10,6 +10,8 @@ import Footer from "./components/Footer.jsx";
 import { useSpring, animated } from "react-spring";
 import VisibilitySensor from "react-visibility-sensor";
 import { Spring, config } from "react-spring/renderprops";
+import Particles from "react-particles-js";
+import particlesOptions from "./particles";
 
 function App() {
   const skillsHeader = useSpring({
@@ -27,8 +29,10 @@ function App() {
     from: { opacity: 0, visibility: "hidden" },
     delay: 8500,
   });
+
   return (
     <div>
+      <Particles className="particles" params={particlesOptions} />
       <NavBar />
       <Header />
       <animated.div className="title-header" style={skillsHeader}>
@@ -47,7 +51,7 @@ function App() {
             to={{ opacity: isVisible ? 1 : 0 }}
           >
             {({ opacity }) => (
-              <div style={{ opacity }} className="title-header">
+              <div style={{ opacity: 1 }} className="title-header">
                 <h3 style={{ marginBottom: "5rem" }}>Get in touch!</h3>
               </div>
             )}

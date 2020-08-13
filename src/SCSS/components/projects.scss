@@ -42,6 +42,7 @@
 }
 
 .card-front {
+  background-color: #dbdbdb;
   border-radius: 10px;
   height: 50rem;
   width: 40rem;
@@ -97,6 +98,7 @@
 }
 
 .card-back {
+  background-color: #dbdbdb;
   height: 50rem;
   width: 40rem;
   display: flex;
@@ -133,11 +135,11 @@
     a {
       height: 2.5rem;
       width: 9rem;
-      margin-right: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
       font-size: 1.5rem;
       outline: none;
       color: white;
-      background-color: $color-main-nav;
       border: none;
       border-radius: 2px;
       opacity: 0.9;
