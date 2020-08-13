@@ -10,3 +10,12 @@
   border-bottom: 0.5px solid #197278;
   margin-top: 5rem;
 }
+
+.particles {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
