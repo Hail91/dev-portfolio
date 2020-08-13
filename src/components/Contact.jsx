@@ -44,8 +44,6 @@ const Contact = () => {
     formReset();
   };
 
-  console.log(isLoading);
-
   return (
     <VisibilitySensor partialVisibility={true} minTopValue={5} once>
       {({ isVisible }) => (
