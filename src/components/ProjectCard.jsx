@@ -75,11 +75,14 @@ const ProjectCard = ({ data }) => {
             </div>
           </div>
           <div className="card-back-btns">
-            <a href={data.code_link} target="_">
-              View Code
+            <a title="View code on Github" href={data.code_link} target="_">
+              <i class="fab fa-github fa-3x" style={{ color: "#197278" }}></i>
             </a>
-            <a href={data.deploy_link} target="_">
-              View Demo
+            <a title="View deployed project" href={data.deploy_link} target="_">
+              <i
+                class="fas fa-globe-americas fa-3x"
+                style={{ color: "#197278" }}
+              ></i>
             </a>
           </div>
         </div>
