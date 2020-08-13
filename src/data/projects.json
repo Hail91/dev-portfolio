@@ -108,7 +108,7 @@
     "description": "Business Card Organizer is an application designed to help users share and collect business cards.",
     "image": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2725&q=80",
     "tech_stack": {
-      "frontend": ["ReactJS", "CSS", "Axios", "Context"],
+      "frontend": ["ReactJS", "CSS", "Axios", "Context API"],
       "backend": [
         "Node",
         "Express",

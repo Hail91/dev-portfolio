@@ -1,10 +1,10 @@
 .projects-container {
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 5rem auto;
-  width: 35%;
+  width: 45%;
   border-bottom: 1px solid $color-main-nav;
 
   @media (max-width: 500px) {
@@ -195,6 +195,7 @@
       li {
         list-style-type: none;
         margin-top: 0.5rem;
+        margin-right: 10px;
         font-size: 1.5rem;
       }
     }
