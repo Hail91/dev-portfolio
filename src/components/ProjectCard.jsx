@@ -13,8 +13,10 @@ const ProjectCard = ({ data }) => {
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div className="card-front">
           <img src={data.image} alt="project-1" />
-          <h2>{data.name}</h2>
-          <p>{data.description}</p>
+          <div style={{ width: "90%", textAlign: "left" }}>
+            <h2>{data.name}</h2>
+            <p>{data.description}</p>
+          </div>
           <p
             className="more-info-btn"
             onClick={handleFlip}
