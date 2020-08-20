@@ -127,5 +127,22 @@
       "Built out routes and database models to serve up 100% Create/Read/Update/Delete functionality to Front End.",
       "Wrote tests for 100% of application endpoints using Jest testing framework, adhered to test driven development pattern by consistently testing routes as they were completed."
     ]
+  },
+  {
+    "id": 6,
+    "name": "JavaScript Blackjack",
+    "description": "Blackjack card game built with vanilla JavaScript | HTML | CSS",
+    "image": "https://images.unsplash.com/photo-1541278107931-e006523892df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80",
+    "tech_stack": {
+      "frontend": ["JavaScript", "HTML", "CSS"],
+      "backend": ["N/A"]
+    },
+    "deploy_link": "https://jsblackjack.netlify.app/",
+    "code_link": "https://github.com/Hail91/js-blackjack",
+    "project_info": [
+      "Blackjack card game built with vanilla JavaScript and styled with vanilla CSS.",
+      "Utilized Object Oriented Programming principles to structure and implement game logic.",
+      "Used playing card SVGs and CSS keyframe animations to create clean animations with detailed card images."
+    ]
   }
 ]
