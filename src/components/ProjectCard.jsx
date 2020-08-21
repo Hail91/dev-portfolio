@@ -12,7 +12,7 @@ const ProjectCard = ({ data }) => {
     <div className="main-card">
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div className="card-front">
-          <img src={data.image} alt="project-1" />
+          <img src={require(`../images/${data.image}`)} alt="project-img" />
           <div style={{ width: "90%", textAlign: "left" }}>
             <h2>{data.name}</h2>
             <p>{data.description}</p>

@@ -13,6 +13,7 @@ import { ReactComponent as Bootstrap } from "./Icons/bootstrap.svg";
 import { ReactComponent as DB } from "./Icons/database.svg";
 import { ReactComponent as Less } from "./Icons/less.svg";
 import { ReactComponent as Python } from "./Icons/python.svg";
+import { ReactComponent as Redux } from "./Icons/redux.svg";
 // -------------------
 const Skills = () => {
   // Function to create smooth fade in as component loads
@@ -69,6 +70,10 @@ const Skills = () => {
       <div>
         <Python className="skills-svg" style={{ color: "4B8BBE" }} />
         <p>Python</p>
+      </div>
+      <div>
+        <Redux className="skills-svg" />
+        <p>Redux</p>
       </div>
     </animated.div>
   );
