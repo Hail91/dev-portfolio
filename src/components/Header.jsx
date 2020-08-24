@@ -2,6 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 import TypeIt from "typeit-react";
 import pdf from "../files/Resume.pdf";
+import profImage from "../images/Me.JPG";
 
 const Header = () => {
   // Push header into view from top of page
@@ -17,12 +18,23 @@ const Header = () => {
     opacity: 1,
     visibility: "visible",
     from: { opacity: 0, visibility: "hidden" },
-    delay: 6500,
+    delay: 7500,
+  });
+
+  const profileImageFade = useSpring({
+    config: { duration: 3000 },
+    opacity: 1,
+    visibility: "visible",
+    from: { opacity: 0, visibility: "hidden" },
+    delay: 1500,
   });
 
   return (
     <section className="welcome-section" id="welcome">
       <animated.div className="header-container" style={headerFadeIn}>
+        <animated.div style={profileImageFade}>
+          <img src={profImage} alt="profile-img" />
+        </animated.div>
         <TypeIt
           element={"h2"}
           options={{
@@ -41,12 +53,12 @@ const Header = () => {
             I'd love to get a conversation started!
           </p>
         </TypeIt>
-        <animated.div className="header-btns-container" style={btnFadeIn}>
-          <a download href={pdf} style={{ marginRight: "20px" }}>
-            Download Resume {""} <i class="fas fa-file-download"></i>
-          </a>
-          <a href="#projects">View Work</a>
-        </animated.div>
+      </animated.div>
+      <animated.div className="header-btns-container" style={btnFadeIn}>
+        <a download href={pdf} style={{ marginRight: "20px" }}>
+          Download Resume {""} <i class="fas fa-file-download"></i>
+        </a>
+        <a href="#projects">View Work</a>
       </animated.div>
     </section>
   );

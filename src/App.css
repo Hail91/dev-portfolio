@@ -19,3 +19,9 @@
   right: 0;
   z-index: -1;
 }
+
+@media (max-width: 500px) {
+  .title-header-skills h3 {
+    margin-top: 0;
+  }
+}
