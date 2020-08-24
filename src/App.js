@@ -35,7 +35,10 @@ function App() {
       <Particles className="particles" params={particlesOptions} />
       <NavBar />
       <Header />
-      <animated.div className="title-header" style={skillsHeader}>
+      <animated.div
+        className="title-header title-header-skills"
+        style={skillsHeader}
+      >
         <h3>Skills</h3>
       </animated.div>
       <Skills />
