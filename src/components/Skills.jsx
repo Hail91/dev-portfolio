@@ -15,6 +15,7 @@ import { ReactComponent as Less } from "./Icons/less.svg";
 import { ReactComponent as Python } from "./Icons/python.svg";
 import { ReactComponent as Redux } from "./Icons/redux.svg";
 // -------------------
+// -------------------
 const Skills = () => {
   // Function to create smooth fade in as component loads
   const skillsFade = useSpring({
