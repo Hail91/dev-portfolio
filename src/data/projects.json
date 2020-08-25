@@ -3,7 +3,7 @@
     "id": 1,
     "name": "One Line A Day",
     "description": "One Line a Day is a user-friendly note-taking web application with a smooth and attractive user interface.",
-    "image": "oneline.JPG",
+    "image": "oneline.png",
     "tech_stack": {
       "frontend": ["ReactJS", "Redux", "CSS", "SASS", "Axios"],
       "backend": [
