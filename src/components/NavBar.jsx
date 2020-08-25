@@ -1,5 +1,5 @@
 import React from "react";
-
+import webIcon from "../images/web-icon.png";
 const NavBar = () => {
   return (
     <div id="nav" className="nav-bar">
