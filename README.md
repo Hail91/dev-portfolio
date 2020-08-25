@@ -1,29 +1,21 @@
-![React Logo](../.github/images/react.svg)
+# Project Description
 
-# React Example
+My personal developer portfolio!
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://zeit.co/docs/v2/serverless-functions/introduction) that can be deployed with ZEIT Now and zero configuration.
+## Status
 
-## Deploy Your Own
+LIVE
 
-Deploy your own React project, along with Serverless Functions, with ZEIT Now.
+## Tech Stack
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/zeit/now-examples/tree/master/create-react-app-functions)
+_Front-End_ - JavaScript | React | SASS
 
-_Live Example: https://create-react-app-functions.now-examples.now.sh/_
+_Back-End_ - NodeJS | Express | Nodemailer
 
-### How We Created This Example
+## Known Issues
 
-To get started with React, along with [Serverless Functions](https://zeit.co/docs/v2/serverless-functions/introduction), with ZEIT Now, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
+Some minor styling issues noted on Safari browser.
 
-```shell
-$ npx create-react-app my-app
-```
+## Future Roadmap
 
-### Deploying From Your Terminal
-
-You can deploy your new React project, along with [Serverless Functions](https://zeit.co/docs/v2/serverless-functions/introduction), with a single command from your terminal using [Now CLI](https://zeit.co/download):
-
-```shell
-$ now
-```
+None at the moment, but this will be updated as needed.
