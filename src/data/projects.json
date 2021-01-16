@@ -92,8 +92,8 @@
         "Auth0"
       ]
     },
-    "deploy_link": "https://kansharewards.com/",
-    "code_link": "https://github.com/Lambda-School-Labs/kansha-fe",
+    "deploy_link": "https://kansha-rewards.netlify.app",
+    "code_link": "https://github.com/Hail91/kansha-fe",
     "project_info": [
       "Worked on a team of seven full-stack developers, and one UX designer to plan and deliver a full-stack production-ready application over the course of two months.",
       "Refactored the entire user onboarding process and helped plan and build the bulk user upload feature which allows new users to upload potentially hundreds of users at once to their organization's account via a CSV ﬁle.",
